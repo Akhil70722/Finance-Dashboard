@@ -134,3 +134,30 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# === Python / Django backend ===
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django DB and migration logs
+*.sqlite3
+*.log
+
+# Local virtual environments
+venv/
+.venv/
+env/
+.env
+
+# Django specific
+db.sqlite3
+media/
+staticfiles/
+*.pot
+*.pyc
+
+# VS Code
+.vscode/
