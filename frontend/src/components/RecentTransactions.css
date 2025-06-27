@@ -1,0 +1,89 @@
+.recent-transactions {
+  background: #1e1e2f;
+  border-radius: 12px;
+  padding: 20px;
+  color: #fff;
+}
+
+.section-title {
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.transactions-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.transaction-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #333;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.transaction-info {
+  flex: 1;
+  margin-left: 12px;
+}
+
+.transaction-name {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.transaction-date {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.transaction-amount {
+  text-align: right;
+}
+
+.amount {
+  display: block;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.amount.income {
+  color: #4caf50;
+}
+
+.amount.expense {
+  color: #f44336;
+}
+
+.status-badge {
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 10px;
+  margin-top: 2px;
+  display: inline-block;
+}
+
+.status-badge.paid {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.status-badge.income {
+  background-color: #2e7d32;
+  color: #fff;
+}
+
+.status-badge.expense {
+  background-color: #c62828;
+  color: #fff;
+}

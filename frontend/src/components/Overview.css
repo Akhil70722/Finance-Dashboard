@@ -1,0 +1,31 @@
+.overview-wrapper {
+  padding: 1rem;
+}
+
+.overview-card {
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  transition: transform 0.2s ease;
+}
+
+.overview-card:hover {
+  transform: translateY(-4px);
+}
+
+.overview-card .title {
+  font-size: 0.9rem;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+.overview-card .value {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.icon {
+  margin-right: 6px;
+}

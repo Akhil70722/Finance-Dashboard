@@ -1,0 +1,9 @@
+.table-wrapper {
+  background-color: #1e1e2f;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+img.rounded-circle {
+  object-fit: cover;
+}
