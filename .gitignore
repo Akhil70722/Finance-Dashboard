@@ -165,3 +165,6 @@ staticfiles/
 # Ignore Python virtual environments
 venv/
 backend/venv/
+
+node_modules/
+frontend/node_modules/
