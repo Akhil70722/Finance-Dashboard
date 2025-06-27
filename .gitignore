@@ -161,3 +161,6 @@ staticfiles/
 
 # VS Code
 .vscode/
+
+# Python virtual environment
+venv/
